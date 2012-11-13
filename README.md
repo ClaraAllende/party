@@ -104,3 +104,5 @@ will be the same.
 
 
 [template]: https://openshift.redhat.com/app/console/application_types/rails
+
+lala
