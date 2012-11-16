@@ -9,7 +9,23 @@
 </head>
 <body>
 
+
+
+<div class="menu">
+<ul>
+<li class="single-link">
+  <%= link_to "Songs", songs_path  %>
+</li>
+<li class="single-link">
+  <%= link_to "Comments", comments_path  %>
+</li>
+</ul>
+</div>
+
+
+<div id="content" class="content">
 <%= yield %>
+</div>
 
 </body>
 </html>
